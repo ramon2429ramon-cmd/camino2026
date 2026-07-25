@@ -1,10 +1,10 @@
+import os
 from flask import Flask, request
 import requests
 
 app = Flask(__name__)
 
 # ======== CONFIGURACION (rellena esto con tus datos) ========
-PAGE_ACCESS_TOKEN = "EAAS8ELOcUZAUBSKBZBFVvCEefGZCWFE7IXKOfvdEn3P61arSZBzPZCiOfxUQpDwkXlXZBsVgFVzUVO7KuWSNZAXt6zPidnXseZBbVo7nlbwkTku5kqZCfgxSVVhZChmpIkGJp0Clz1pGDatrDts41mikqzSkTRAaVWp3yAPOvGY96QXq0XfGa39Wr3pk6qfUOyeds42910NcBt"
 VERIFY_TOKEN = "camino2026"  # este lo inventas tu, luego lo usaras en el panel de Meta
 # ==============================================================
 
