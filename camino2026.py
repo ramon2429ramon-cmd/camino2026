@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 # ======== CONFIGURACION (rellena esto con tus datos) ========
-VERIFY_TOKEN = "camino2026"  # este lo inventas tu, luego lo usaras en el panel de Meta
+VERIFY_TOKEN = os.environ.get("VERIFY_TOKEN")  # este lo inventas tu, luego lo usaras en el panel de Meta
 PAGE_ACCESS_TOKEN = os.environ.get("PAGE_ACCESS_TOKEN")
 # ==============================================================
 
